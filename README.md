@@ -32,8 +32,8 @@ The T&A Data Submission Form simplifies the tracking and submission of data for 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/T-A-Data-Submission-Form.git
-   cd T-A-Data-Submission-Form
+   git clone https://github.com/satyamjaysawal/T-A-Data-Submission-Form---Frontend.git
+   cd T-A-Data-Submission-Form---Frontend
    ```
 
 2. **Install Frontend Dependencies**
