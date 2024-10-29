@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { PlusIcon,  TrashIcon } from '@heroicons/react/outline';
 
-const TandaForm = () => {
+const Form = () => {
     const navigate = useNavigate(); // Initialize useNavigate
     const baseurl = 'http://localhost:5000';
     const [formData, setFormData] = useState({
@@ -209,8 +209,8 @@ const TandaForm = () => {
                     <div className="flex items-center gap-4 mb-4">
                         <button type="button" onClick={() => handleUnitChange(index, 'M')}
                             className={`p-2 border rounded ${fabric.unit === 'M' ? 'bg-blue-200' : ''}`}>M</button>
-                        <button type="button" onClick={() => handleUnitChange(index, 'Y')}
-                            className={`p-2 border rounded ${fabric.unit === 'Y' ? 'bg-blue-200' : ''}`}>Y</button>
+                        <button type="button" onClick={() => handleUnitChange(index, 'Kg')}
+                            className={`p-2 border rounded ${fabric.unit === 'Kg' ? 'bg-blue-200' : ''}`}>Kg</button>
                     </div>
 
                     {/* Color Quantities */}
@@ -324,4 +324,4 @@ const TandaForm = () => {
     );
 };
 
-export default TandaForm;
+export default Form;

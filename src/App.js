@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TandaForm from './components/TandaForm';
+import Form from './components/Form';
 import Submissions from './pages/Submissions';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <Router>
             <div className="App">
                 <Routes>
-                    <Route path="/" element={<TandaForm />} />
+                    <Route path="/" element={<Form />} />
                     <Route path="/submission" element={<Submissions />} />
                 </Routes>
             </div>
