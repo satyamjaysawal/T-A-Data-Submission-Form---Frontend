@@ -6,18 +6,7 @@
 
 The T&A Data Submission Form simplifies the tracking and submission of data for fabric and production requirements. Users can dynamically add multiple fabric sections, trims, accessories, and specific production details like color and quantity per fabric. The form also includes dropdown selections for process steps and allows for flexible customization based on different production requirements.
 
----
 
-## Features
-
-- **Dynamic Input Sections**: Users can add multiple sections for fabric, trims, and accessories.
-- **Real-Time Validation**: Ensures correct input values for all form fields.
-- **Date Selection**: Start and end date selection for project timelines.
-- **Dropdown Selections**: Major fabric type, trims, accessories, and process stages can be selected from dropdowns.
-- **Dynamic Forms**: Option to add more trims, accessories, and fabric sections as needed.
-- **Responsive Design**: Built with Tailwind CSS for responsive and user-friendly design.
-
----
 
 ## Technologies Used
 
@@ -32,8 +21,8 @@ The T&A Data Submission Form simplifies the tracking and submission of data for 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/T-A-Data-Submission-Form.git
-   cd T-A-Data-Submission-Form
+   git clone https://github.com/satyamjaysawal/T-A-Data-Submission-Form---Frontend.git
+   cd T-A-Data-Submission-Form---Frontend
    ```
 
 2. **Install Frontend Dependencies**
