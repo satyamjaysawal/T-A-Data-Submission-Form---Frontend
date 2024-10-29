@@ -5,11 +5,11 @@ const Submissions = () => {
     const [submissions, setSubmissions] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-
+    const baseurl = 'https://t-a-data-submission-form-backend.vercel.app';
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/submissions");
+                const response = await axios.get(`${baseurl}/submissions`); 
                 setSubmissions(response.data);
             } catch (err) {
                 console.error("Error fetching submissions", err);
